@@ -115,7 +115,8 @@ public class Principal {
         
         for (int i = 0; i < n; i++) {
             //extranctMin remove o vértice com a menor chave de Q
-            int u = extractMin(n);            
+            int u = extractMin(n);
+            //Marca como visitado o vértice u
             cor[u] = CINZA;
             for (int v = 0; v < n; v++) {                
                 //Somente com os adjancentes ao vértice u
