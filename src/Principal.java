@@ -6,7 +6,7 @@
  * Prof Alexandre Gonçalves da Silva 
  *
  * Baseado nos slides 95 da aula do dia 20/10/2017 
- * Página 49 Cormen 3a Ed
+ * Página 461 Cormen 3a Ed
  *
  * Árvore Geradora Mínima(MST) com o Algoritmo de Prim
  */
@@ -65,7 +65,7 @@ public class Principal {
         int menorValor = Integer.MAX_VALUE;
         int indiceMenor = -1;
         for (int i = 0; i < n; i++) {
-            if (cor[i] == 0 && chave[i] < menorValor) {
+            if (cor[i] == BRANCO && chave[i] < menorValor) {
                 indiceMenor = i;
                 menorValor = chave[i];
             }
@@ -112,8 +112,7 @@ public class Principal {
         }
         //Raiz do grafo inicializa a chave com 0
         chave[r] = 0;
-        pi[r] = -1;
-
+        
         for (int i = 0; i < n; i++) {
             //extranctMin remove o vértice com a menor chave de Q
             int u = extractMin(n);            
