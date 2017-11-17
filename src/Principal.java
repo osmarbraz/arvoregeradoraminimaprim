@@ -5,7 +5,8 @@
  * Disciplinas: Projeto e Análise de Algoritmos
  * Prof Alexandre Gonçalves da Silva 
  *
- * Baseado nos slides 95 da aula do dia 20/10/2017 
+ * Baseado nos slides 95 da aula do dia 20/10/2017  
+ *
  * Página 461 Cormen 3a Ed
  *
  * Árvore Geradora Mínima(MST) com o Algoritmo de Prim
