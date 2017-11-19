@@ -7,7 +7,7 @@
  *
  * Baseado nos slides 95 da aula do dia 20/10/2017  
  *
- * Página 461 Cormen 3a Ed
+ * Página 461 Thomas H. Cormen 3a Ed
  *
  * Árvore Geradora Mínima(MST) com o Algoritmo de Prim
  */
