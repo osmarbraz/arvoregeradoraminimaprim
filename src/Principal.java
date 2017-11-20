@@ -89,7 +89,7 @@ public class Principal {
         //Percorre os vértices apartir de pi
         //O laço começa em 1 pois na posição 0 temos -1 do início
         for (int v = 1; v < n; v++) {
-            System.out.println(trocar(pi[v]) + "->" + trocar(v) + " custo:" + G[pi[v]][v]);
+            System.out.println(trocar(pi[v]) + " -> " + trocar(v) + " custo: " + G[pi[v]][v]);
             custo = custo + G[pi[v]][v];
         }
         System.out.println("Custo Total:" + custo);
