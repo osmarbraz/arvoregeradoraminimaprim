@@ -59,6 +59,8 @@ public class Principal {
     /**
      * Retorna o índice do vértice com o menor peso da aresta ainda não visitado.
      *
+     * Complexidade O(V log V)
+     * 
      * @param n Quantidade de vértices a ser pesquisados
      * @return O índice do menor vértice
      */
