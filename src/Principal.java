@@ -64,7 +64,7 @@ public class Principal {
      * @param n Quantidade de vértices a ser pesquisados
      * @return O índice do menor vértice
      */
-    public static int extractMin(int n) {
+    public static int extrairMenor(int n) {
         int menorValor = Integer.MAX_VALUE;
         int indiceMenor = -1;
         for (int i = 0; i < n; i++) {
@@ -119,7 +119,7 @@ public class Principal {
         
         for (int i = 0; i < n; i++) {
             //extranctMin remove o vértice com a menor chave de Q
-            int u = extractMin(n);
+            int u = extrairMenor(n);
             //Marca como visitado o vértice u
             cor[u] = CINZA;
             for (int v = 0; v < n; v++) {                
