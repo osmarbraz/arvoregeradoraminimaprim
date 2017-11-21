@@ -96,7 +96,7 @@ public class Principal {
     }
 
     /**
-     * Executa o algoritmo de Prim para Ãrvore geradorda Mínima
+     * Executa o algoritmo de Prim para Ãrvore geradora Mínima
      *
      * @param G Matriz de indicência da árvore
      * @param r Raiz da árvore
@@ -151,7 +151,7 @@ public class Principal {
                 {8, 11,0, 0, 0, 0, 1, 0, 7}, //h
                 {0, 0, 2, 0, 0, 0, 6, 7, 0}};//i
 
-        System.out.println("Árvore Geradora Minima - Algoritmo de Prim");
+        System.out.println(">>> Árvore Geradora Minima - Algoritmo de Prim <<<");
 
         //Raiz da árvore
         int r = destrocar('a');
