@@ -102,6 +102,8 @@ public class Principal {
     /**
      * Executa o algoritmo de Prim para Ãrvore geradora Mínima
      *
+     * Complexidade O(E log V)
+     * 
      * @param G Matriz de indicência da árvore
      * @param r Raiz da árvore
      */
