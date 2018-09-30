@@ -9,3 +9,5 @@ Baseado nos slides 60 da aula do dia 20/10/2017  <br>
 Página 461 Thomas H. Cormen 3a Ed<br>
 
 Árvore Geradora Mínima(MST) com o Algoritmo de Prim<br>
+Aplicações:<br>
+- Encontra uma árvore geradora mínima em um grafo não direcionado<br>
